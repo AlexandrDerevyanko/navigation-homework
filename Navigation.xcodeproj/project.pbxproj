@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF06E04429DD8B63003C8095 /* SearchPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06E04329DD8B63003C8095 /* SearchPicker.swift */; };
 		FF0DB72229D6FB8B00F492C9 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF0DB72029D6FB8B00F492C9 /* CoreData.xcdatamodeld */; };
 		FF0DB72429D6FBC400F492C9 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0DB72329D6FBC400F492C9 /* CoreDataManager.swift */; };
 		FF31F41E29471712009C1461 /* ProfileTableHederView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF31F41D29471712009C1461 /* ProfileTableHederView.swift */; };
@@ -24,14 +23,10 @@
 		FF6D937529DC2C36007AC94E /* ProfileDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6D937429DC2C36007AC94E /* ProfileDelegate.swift */; };
 		FF6D937729DC2E2B007AC94E /* FavoritePostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6D937629DC2E2B007AC94E /* FavoritePostTableViewCell.swift */; };
 		FF7B457F29B6F5BC002C4369 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7B457E29B6F5BC002C4369 /* Errors.swift */; };
-		FF8395FF29C33C6500BA40D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF8395FE29C33C6500BA40D9 /* GoogleService-Info.plist */; };
 		FF83960229C343BE00BA40D9 /* DataJSON.swift 18-30-32-395.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83960129C343BE00BA40D9 /* DataJSON.swift 18-30-32-395.swift */; };
 		FF83960829C4678D00BA40D9 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF83960729C4678D00BA40D9 /* SignupViewController.swift */; };
-		FF8D39B22983C19E002995D1 /* StorageService.docc in Sources */ = {isa = PBXBuildFile; fileRef = FF8D39B12983C19E002995D1 /* StorageService.docc */; };
-		FF8D39B32983C19E002995D1 /* StorageService.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8D39B02983C19E002995D1 /* StorageService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF8D39B62983C19E002995D1 /* StorageService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8D39AE2983C19E002995D1 /* StorageService.framework */; };
 		FF8D39B72983C19E002995D1 /* StorageService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF8D39AE2983C19E002995D1 /* StorageService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FF8D39BC2983C220002995D1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFEF825291FCFD80025FB74 /* Post.swift */; };
 		FF8FEDF32950679300D37BB9 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8FEDF22950679300D37BB9 /* PostTableViewCell.swift */; };
 		FFAA6BE829D73628001A3365 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAA6BE729D73628001A3365 /* TabBarController.swift */; };
 		FFAA6BF029D76780001A3365 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAA6BEF29D76780001A3365 /* FavoritesViewController.swift */; };
@@ -76,7 +71,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FF06E04329DD8B63003C8095 /* SearchPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPicker.swift; sourceTree = "<group>"; };
 		FF0DB72129D6FB8B00F492C9 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 		FF0DB72329D6FBC400F492C9 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		FF31F41D29471712009C1461 /* ProfileTableHederView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableHederView.swift; sourceTree = "<group>"; };
@@ -92,12 +86,9 @@
 		FF6D937429DC2C36007AC94E /* ProfileDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDelegate.swift; sourceTree = "<group>"; };
 		FF6D937629DC2E2B007AC94E /* FavoritePostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePostTableViewCell.swift; sourceTree = "<group>"; };
 		FF7B457E29B6F5BC002C4369 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
-		FF8395FE29C33C6500BA40D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FF83960129C343BE00BA40D9 /* DataJSON.swift 18-30-32-395.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataJSON.swift 18-30-32-395.swift"; sourceTree = "<group>"; };
 		FF83960729C4678D00BA40D9 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		FF8D39AE2983C19E002995D1 /* StorageService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StorageService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF8D39B02983C19E002995D1 /* StorageService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StorageService.h; sourceTree = "<group>"; };
-		FF8D39B12983C19E002995D1 /* StorageService.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = StorageService.docc; sourceTree = "<group>"; };
 		FF8FEDF22950679300D37BB9 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		FFAA6BE729D73628001A3365 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		FFAA6BEF29D76780001A3365 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
@@ -116,7 +107,6 @@
 		FFD64C512918C81B0015F6B3 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		FFE8D3B5299FAC2E00FD9508 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		FFFEF823291FC00D0025FB74 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
-		FFFEF825291FCFD80025FB74 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,14 +130,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FF06E04229DD8B50003C8095 /* SearchPicker */ = {
-			isa = PBXGroup;
-			children = (
-				FF06E04329DD8B63003C8095 /* SearchPicker.swift */,
-			);
-			path = SearchPicker;
-			sourceTree = "<group>";
-		};
 		FF0DB71F29D6FB6F00F492C9 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,24 +211,6 @@
 			path = Errors;
 			sourceTree = "<group>";
 		};
-		FF83960029C33C8500BA40D9 /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				FF8395FE29C33C6500BA40D9 /* GoogleService-Info.plist */,
-			);
-			path = Firebase;
-			sourceTree = "<group>";
-		};
-		FF8D39AF2983C19E002995D1 /* StorageService */ = {
-			isa = PBXGroup;
-			children = (
-				FFFEF825291FCFD80025FB74 /* Post.swift */,
-				FF8D39B02983C19E002995D1 /* StorageService.h */,
-				FF8D39B12983C19E002995D1 /* StorageService.docc */,
-			);
-			path = StorageService;
-			sourceTree = "<group>";
-		};
 		FFAA6BEE29D76766001A3365 /* Favorites */ = {
 			isa = PBXGroup;
 			children = (
@@ -282,7 +246,6 @@
 			isa = PBXGroup;
 			children = (
 				FFD64C162916EC6E0015F6B3 /* Navigation */,
-				FF8D39AF2983C19E002995D1 /* StorageService */,
 				FFD64C152916EC6E0015F6B3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -299,7 +262,6 @@
 		FFD64C162916EC6E0015F6B3 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				FF06E04229DD8B50003C8095 /* SearchPicker */,
 				FF6D936F29DAE28D007AC94E /* ImagePicker */,
 				FF1D2B522958095A00D0E676 /* App */,
 				FFAA6BEE29D76766001A3365 /* Favorites */,
@@ -307,7 +269,6 @@
 				FF0DB71F29D6FB6F00F492C9 /* CoreData */,
 				FF5F226E29D440440035F975 /* Realm */,
 				FF5F226B29D43ADD0035F975 /* Alerts */,
-				FF83960029C33C8500BA40D9 /* Firebase */,
 				FFB3108529BF2AEA00D32055 /* Network Service */,
 				FF7B457D29B6F5B0002C4369 /* Errors */,
 				FF1D2B53295809C900D0E676 /* Feed */,
@@ -346,7 +307,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF8D39B32983C19E002995D1 /* StorageService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +409,6 @@
 			files = (
 				FFD64C242916EC6F0015F6B3 /* LaunchScreen.storyboard in Resources */,
 				FFD64C212916EC6F0015F6B3 /* Assets.xcassets in Resources */,
-				FF8395FF29C33C6500BA40D9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,8 +419,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF8D39B22983C19E002995D1 /* StorageService.docc in Sources */,
-				FF8D39BC2983C220002995D1 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +427,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFD64C522918C81C0015F6B3 /* PostViewController.swift in Sources */,
-				FF06E04429DD8B63003C8095 /* SearchPicker.swift in Sources */,
 				FFAA6BF029D76780001A3365 /* FavoritesViewController.swift in Sources */,
 				FFD64C4C2917DF250015F6B3 /* ProfileViewController.swift in Sources */,
 				FF5F227229D440650035F975 /* RealmManager.swift in Sources */,
@@ -703,7 +659,6 @@
 		FFD64C3F2916EC6F0015F6B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -731,7 +686,6 @@
 		FFD64C402916EC6F0015F6B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
